@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cce8fd0b-bbfe-4341-bff1-35f2bfd0feaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xzj/chapter01/controller/upload/FileUploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/upload/upload01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xzj/chap1/model/basemodel/FileBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xzj/helper/file/txt/TxtFileOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xzj/chapter01/controller/upload/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xzj/chapter01/controller/upload/FileUploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xzj/config/MyWebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xzj/config/MyWebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/upload/upload01.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/upload/upload01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +36,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1TNoxDMQbhTGxmNSEwOnEVQ9iyu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -104,8 +110,16 @@
       <workItem from="1577810812734" duration="4099000" />
       <workItem from="1577866885816" duration="1717000" />
       <workItem from="1577975265904" duration="2014000" />
-      <workItem from="1578124989785" duration="8467000" />
+      <workItem from="1578124989785" duration="16203000" />
     </task>
+    <task id="LOCAL-00001" summary="文件上传">
+      <created>1578225396910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578225396910</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +166,10 @@
       </set>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="文件上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="文件上传" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -159,6 +177,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/xzj/chapter01/controller/BookController.java</url>
           <line>21</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/xzj/chapter01/controller/upload/FileUploadController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
